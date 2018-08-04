@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="appURL" value="https://www.amazon.com/" />
+	<test name="Test">
+		<parameter name="browserType" value="chrome" />
+		<classes>
+			<class name="Test.SearchBooksTest" />
+		</classes>
+	</test>
+</suite>
