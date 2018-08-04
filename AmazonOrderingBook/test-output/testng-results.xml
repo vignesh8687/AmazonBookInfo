@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0"
+	total="1" passed="1">
+	<reporter-output>
+	</reporter-output>
+	<suite name="Suite" duration-ms="382341"
+		started-at="2018-08-04T08:13:11Z" finished-at="2018-08-04T08:19:34Z">
+		<groups>
+		</groups>
+		<test name="Test" duration-ms="382341"
+			started-at="2018-08-04T08:13:11Z" finished-at="2018-08-04T08:19:34Z">
+			<class name="Test.SearchBooksTest">
+				<test-method status="PASS"
+					signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:Test.SearchBooksTest@c267ef4]"
+					name="initializeTestBaseSetup" is-config="true" duration-ms="28088"
+					started-at="2018-08-04T08:13:11Z"
+					finished-at="2018-08-04T08:13:39Z">
+					<params>
+						<param index="0">
+							<value>
+                <![CDATA[chrome]]>
+							</value>
+						</param>
+						<param index="1">
+							<value>
+                <![CDATA[https://www.amazon.com/]]>
+							</value>
+						</param>
+					</params>
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- initializeTestBaseSetup -->
+				<test-method status="PASS"
+					signature="setUp()[pri:0, instance:Test.SearchBooksTest@c267ef4]"
+					name="setUp" is-config="true" duration-ms="0"
+					started-at="2018-08-04T08:13:39Z"
+					finished-at="2018-08-04T08:13:39Z">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- setUp -->
+				<test-method status="PASS"
+					signature="SearchBooksTest()[pri:0, instance:Test.SearchBooksTest@c267ef4]"
+					name="SearchBooksTest" duration-ms="34244"
+					started-at="2018-08-04T08:13:39Z"
+					finished-at="2018-08-04T08:14:14Z">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- SearchBooksTest -->
+				<test-method status="PASS"
+					signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:Test.SearchBooksTest@c267ef4]"
+					name="takeScreenShotOnFailure" is-config="true"
+					duration-ms="315928" started-at="2018-08-04T08:14:14Z"
+					finished-at="2018-08-04T08:19:30Z">
+					<params>
+						<param index="0">
+							<value>
+                <![CDATA[[TestResult name=SearchBooksTest status=SUCCESS method=SearchBooksTest.SearchBooksTest()[pri:0, instance:Test.SearchBooksTest@c267ef4] output={null}]]]>
+							</value>
+						</param>
+					</params>
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- takeScreenShotOnFailure -->
+				<test-method status="PASS"
+					signature="tearDown()[pri:0, instance:Test.SearchBooksTest@c267ef4]"
+					name="tearDown" is-config="true" duration-ms="4020"
+					started-at="2018-08-04T08:19:30Z"
+					finished-at="2018-08-04T08:19:34Z">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- tearDown -->
+			</class> <!-- Test.SearchBooksTest -->
+		</test> <!-- Test -->
+	</suite> <!-- Suite -->
+</testng-results>

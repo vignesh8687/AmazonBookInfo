@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+	<parameter name="appURL" value="https://www.amazon.com/" />
+	<test thread-count="5" name="Test(failed)">
+		<parameter name="browserType" value="chrome" />
+		<classes>
+			<class name="Test.SearchBooksTest">
+				<methods>
+					<include name="setUp" />
+					<include name="tearDown" />
+					<include name="SearchBooksTest" />
+					<include name="initializeTestBaseSetup" />
+					<include name="takeScreenShotOnFailure" />
+				</methods>
+			</class> <!-- Test.SearchBooksTest -->
+		</classes>
+	</test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
